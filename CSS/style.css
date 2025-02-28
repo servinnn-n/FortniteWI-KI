@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Noto+Serif+Todhri&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Noto+Serif+Todhri&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body h2{
+  text-align: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+header{
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(142,136,254,1) 100%);
+    color: white;
+    padding: 10px 0;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Video{
+    border-radius: 15px;
+}
+
+section h2{
+    font-family: 'Raleway';
+}
+header h1{
+    text-align: left;
+    font-family: 'Source Code Pro';
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.section__all-Fortnite{
+    font-family: 'Source Code Pro';
+  text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    font-family: 'Source Code Pro';
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+section p{
+    font-family: 'Playfair Display';
+}
+section ul{
+    font-family: 'Playfair Display';
+}
+
+.Pobediteli{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.Pobeditel{
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(142,136,254,1) 100%);
+    color: white;
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+}
+.Pobeditel-img{
+    max-width: 500;
+    border-radius: 15px;
+    padding: 10px;
+    width: 310px;
+    height: 310px;
+}
+footer h5{
+    text-align: center;
+    font-family: 'Playfair Display';
+}
+ header ul a:hover
+    {
+        background-image: linear-gradient(
+          to right,
+          white,
+           white 50%,
+          #000 50%
+        );
+        background-size: 200% 100%;
+        background-position: -100%;
+        display: inline-block;
+        padding: 5px 0;
+        position: relative;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.5s ease-in-out;
+      }
+      
+    ul a:before{
+        content: '';
+        background: #54b3d6;
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 0;
+        height: 3px;
+        transition: all 0.5s ease-in-out;
+      }
+      
+      a:hover {
+       background-position: 0;
+      }
+      
+      a:hover::before{
+        width: 100%;
+      }
+      
+      /* Presentational Styles */
+     
+
+
+.Postroiki{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.Postroika{
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+}
+.Postroika-img{
+    max-width: 500;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+}
+.Resources{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.Resource{
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+}
+.Resource-img{
+    max-width: 500;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+}
+.text{
+    text-align: center;
+}
+.Fortnite-modes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.Fortnite-mode{
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+}
+.Fortnite-mode-img{
+    max-width: 500;
+    border-radius: 20px;
+    padding: 10px;
+    width: 400px;
+}
+.Plot{
+}
+header h1:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+.Season-3{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.Season-3-img{
+    max-width: 500;
+    border-radius: 25px;
+    width: 500px;
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(142,136,254,1) 100%);
+    
+}
+.Director{
+    text-align: center
+}
+.Director-img{
+    max-width: 500;
+    border-radius: 50px;
+    width: 500px;
+    padding: 8px;
+    text-align: center;
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(142,136,254,1) 100%);
+    border: 1px solid
+}
+.Directora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Formats{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.Format{
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+}
+.Format-img{
+    border-radius: 20px;
+    width: 150px;
+}
+.FreeBuild{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.text-freebuil{
+    width: 500px;
+}
+section{
+    margin-top: 15px;
+}
+header h1{
+    list-style: none;
+}
+
+
+
+@media screen and (max-width:378px){
+    .container{
+        width: 378px;
+    }
+    header .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Fortnite-mode-img{
+        width: 290px;
+    }
+    .text{
+        max-width: 95%;
+        width: auto;
+    }
+    .Season-3{
+        flex-direction: column;
+    }
+    .Season-3 p{
+        max-width: 95%;
+        width: auto;
+    }
+    .Season-3 img{
+        margin-bottom: 20px;
+        max-width: 90%;
+        width: auto;
+    }
+    .Directora{
+        flex-direction: column;
+    }
+    .Director-img{
+        max-width: 87%;
+        width: auto;
+    }
+    .build{
+        max-width: 95%;
+        width: auto;
+        text-align: center;
+    }
+    .section__all-Fortnite{
+        font-size: 18px;
+        width: 95%;
+    }
+    .Postroiki{
+        width: 350px;
+    }
+    .Postroika{
+        width: 100px;
+        align-items: center;
+    }
+    .Postroika-img{
+        width: 80px;
+    }
+    .Resource{
+        width: 100px;
+        align-items: center;
+    }
+    .Resource-img{
+        width: 80px;
+    }
+    .Video{
+        max-width: 90%;
+        width: auto;
+    }
+    .FreeBuild{
+        flex-direction: column;
+    }
+    .text-freebuil{
+        max-width: 90%;
+        width: auto;
+    }
+    .section-mechaniks{
+        max-width: 95%;
+        width: 1000px
+    }
+    .section-tournaments{
+        max-width: 85%;
+        width: auto; 
+    }
+    .Format-img{
+        width: 80px;
+    }
+}
+@media screen and (max-width:576px){
+    header .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .FreeBuild{
+        flex-direction: column;
+    }
+    .Video{
+        max-width: 95%;
+        width: auto;
+    }
+    .Season-3{
+        flex-direction: column;
+    }
+    .Season-3 p{
+        max-width: 95%;
+        width: auto;
+    }
+    .Season-3 img{
+        margin-bottom: 20px;
+        max-width: 90%;
+        width: auto;
+    }
+    .Directora{
+        flex-direction: column;
+    }
+    .Director-img{
+        max-width: 87%;
+        width: auto;
+    }
+}
+@media screen and (max-width:768px){
+  
+    .Director-img{
+        max-width: 93%;
+        width: auto;
+    }
+    .Fortnite-mode-img{
+        width: 300px;
+    }
+}
